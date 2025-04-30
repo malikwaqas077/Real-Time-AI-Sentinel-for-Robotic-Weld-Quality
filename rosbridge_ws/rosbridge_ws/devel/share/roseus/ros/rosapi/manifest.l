@@ -1,0 +1,1 @@
+/home/waqas/rosbridge_ws/devel/.private/rosapi/share/roseus/ros/rosapi/manifest.l

@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: rosbridge-server
+Version: 0.11.17
+Summary: A WebSocket interface to rosbridge.
+Home-page: http://ros.org/wiki/rosbridge_server
+Author: Jonathan Mace
+Author-email: jonathan.c.mace@gmail.com
+Maintainer: Russell Toris <rctoris@wpi.edu>, Jihoon Lee <jihoonlee.in@gmail.com>
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

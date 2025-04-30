@@ -1,0 +1,8 @@
+prefix=/home/waqas/catkin_ws/devel
+
+Name: weld_quality_sentinel
+Description: Description of weld_quality_sentinel
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

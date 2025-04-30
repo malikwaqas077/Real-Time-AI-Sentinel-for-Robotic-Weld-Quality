@@ -1,0 +1,1 @@
+/home/waqas/rosbridge_ws/devel/.private/rosbridge_msgs/share/rosbridge_msgs/cmake/rosbridge_msgsConfig.cmake

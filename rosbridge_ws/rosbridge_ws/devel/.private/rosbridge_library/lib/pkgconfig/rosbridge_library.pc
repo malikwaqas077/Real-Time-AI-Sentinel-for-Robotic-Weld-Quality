@@ -1,0 +1,8 @@
+prefix=/home/waqas/rosbridge_ws/devel/.private/rosbridge_library
+
+Name: rosbridge_library
+Description: Description of rosbridge_library
+Version: 0.11.17
+Cflags: -I/home/waqas/rosbridge_ws/devel/.private/rosbridge_library/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs geometry_msgs

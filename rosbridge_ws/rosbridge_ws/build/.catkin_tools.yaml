@@ -1,0 +1,6 @@
+devel_space: /home/waqas/rosbridge_ws/devel
+install: false
+install_space: /home/waqas/rosbridge_ws/install
+profile: default
+source_space: /home/waqas/rosbridge_ws/src
+workspace: /home/waqas/rosbridge_ws

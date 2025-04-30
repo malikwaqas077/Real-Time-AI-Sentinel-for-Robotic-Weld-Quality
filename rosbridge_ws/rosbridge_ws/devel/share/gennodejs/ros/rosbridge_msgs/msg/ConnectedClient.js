@@ -1,0 +1,1 @@
+/home/waqas/rosbridge_ws/devel/.private/rosbridge_msgs/share/gennodejs/ros/rosbridge_msgs/msg/ConnectedClient.js

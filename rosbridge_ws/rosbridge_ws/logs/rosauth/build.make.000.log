@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target _rosauth_generate_messages_check_deps_Authentication[0m
+[  7%] [32mBuilding CXX object gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  7%] Built target _rosauth_generate_messages_check_deps_Authentication
+[35m[1mScanning dependencies of target rosauth_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target rosauth_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosauth_generate_messages_eus[0m
+[ 15%] [34m[1mGenerating C++ code from rosauth/Authentication.srv[0m
+[ 23%] [34m[1mGenerating EusLisp code from rosauth/Authentication.srv[0m
+[ 30%] [34m[1mGenerating Python code from SRV rosauth/Authentication[0m
+[ 38%] [34m[1mGenerating EusLisp manifest code for rosauth[0m
+[ 46%] [34m[1mGenerating Python srv __init__.py for rosauth[0m
+[ 46%] Built target rosauth_generate_messages_cpp
+[ 46%] Built target rosauth_generate_messages_py
+[35m[1mScanning dependencies of target rosauth_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosauth_generate_messages_nodejs[0m
+[ 53%] [34m[1mGenerating Lisp code from rosauth/Authentication.srv[0m
+[ 61%] [34m[1mGenerating Javascript code from rosauth/Authentication.srv[0m
+[ 61%] Built target rosauth_generate_messages_lisp
+[35m[1mScanning dependencies of target rosauth_gencpp[0m
+[ 61%] Built target rosauth_generate_messages_nodejs
+[ 61%] Built target rosauth_gencpp
+[35m[1mScanning dependencies of target ros_mac_authentication[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/ros_mac_authentication.dir/src/ros_mac_authentication.cpp.o[0m
+[ 69%] Built target rosauth_generate_messages_eus
+[35m[1mScanning dependencies of target rosauth_generate_messages[0m
+[ 69%] Built target rosauth_generate_messages
+[ 76%] [32m[1mLinking CXX executable /home/waqas/rosbridge_ws/devel/.private/rosauth/lib/rosauth/ros_mac_authentication[0m
+[ 84%] [32m[1mLinking CXX shared library ../lib/libgtest.so[0m
+[ 84%] Built target gtest
+[ 84%] Built target ros_mac_authentication
+[35m[1mScanning dependencies of target ros_mac_authentication_test[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/ros_mac_authentication_test.dir/test/ros_mac_authentication_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/waqas/rosbridge_ws/devel/.private/rosauth/lib/rosauth/ros_mac_authentication_test[0m
+[100%] Built target ros_mac_authentication_test

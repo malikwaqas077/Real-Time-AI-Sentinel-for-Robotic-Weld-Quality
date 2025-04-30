@@ -1,0 +1,26 @@
+<launch>
+  <!-- 1.  Start Gazebo with an empty world  -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+  </include>
+
+  <!-- 2.  Publish our URDF on the parameter server -->
+  <param name="robot_description"
+         command="$(find xacro)/xacro $(find weld_robot_description)/urdf/robot.urdf.xacro"/>
+
+  <!-- 3.  Run robot_state_publisher so TF & joint_states exist -->
+  <node pkg="robot_state_publisher" type="robot_state_publisher"
+        name="robot_state_publisher" />
+
+  <!-- (optional) 4.  Spawn the visual model into Gazebo so you can see it -->
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model"
+        args="-param robot_description -urdf -model weld_bot" />
+
+   <!-- dummy welding-cycle publisher -->
+  <node pkg="weld_robot_description"
+        type="cycle_publisher.py"
+        name="cycle_publisher"
+        output="screen"/>
+
+</launch>

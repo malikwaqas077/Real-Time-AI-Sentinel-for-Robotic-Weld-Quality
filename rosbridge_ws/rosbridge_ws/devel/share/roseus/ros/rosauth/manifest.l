@@ -1,0 +1,1 @@
+/home/waqas/rosbridge_ws/devel/.private/rosauth/share/roseus/ros/rosauth/manifest.l

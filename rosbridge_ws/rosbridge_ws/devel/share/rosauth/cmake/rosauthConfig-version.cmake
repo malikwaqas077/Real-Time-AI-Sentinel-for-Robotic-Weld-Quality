@@ -1,0 +1,1 @@
+/home/waqas/rosbridge_ws/devel/.private/rosauth/share/rosauth/cmake/rosauthConfig-version.cmake

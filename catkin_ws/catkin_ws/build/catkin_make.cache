@@ -1,0 +1,2 @@
+rosbridge_suite/rosapi:rosbridge_suite/rosapi_msgs:rosbridge_suite/rosbridge_library:rosbridge_suite/rosbridge_msgs:rosbridge_suite/rosbridge_server:rosbridge_suite/rosbridge_suite:rosbridge_suite/rosbridge_test_msgs:weld_quality_sentinel:weld_robot_description
+-DCATKIN_DEVEL_PREFIX=/home/waqas/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/waqas/catkin_ws/install -G Unix Makefiles

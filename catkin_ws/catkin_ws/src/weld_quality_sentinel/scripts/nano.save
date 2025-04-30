@@ -1,0 +1,33 @@
+import rospy
+from sensor_msgs.msg import JointState
+from std_msgs.msg import Float32
+import numpy as np
+import onnxruntime as ort
+
+class WeldQualitySentinel:
+    def __init__(self):
+        rospy.init_node('weld_quality_sentinel')
+        # Load ONNX model (must be in same folder or give full path)
+        model_path = rospy.get_param('~model_path', 'weld_sentinel.onnx')
+        self.sess = ort.InferenceSession(model_path)
+        # Subscribe to the simulated weld cycle (we’ll publish that from Gazebo)
+        rospy.Subscriber('/welding_cycle', JointState, self.cycle_cb)
+        # Publish quality score
+        self.pub = rospy.Publisher('/weld_quality', Float32, queue_size=10)
+        rospy.loginfo("WeldQualitySentinel ready.")
+
+    def cycle_cb(self, msg):
+        # assume msg.position is length 400: [V0…V199, I0…I199]
+        arr = np.array(msg.position, dtype=np.float32).reshape(1,200,2)
+        prob = self.sess.run(None, {'cycle': arr})[0].item()
+        out = Float32(data=prob)
+        self.pub.publish(out)
+        rospy.loginfo(f"weld_quality={prob:.3f}")
+
+    def run(self):
+        rospy.spin()
+
+if __name__ == '__main__':
+    node = WeldQualitySentinel()
+    node.run()
+

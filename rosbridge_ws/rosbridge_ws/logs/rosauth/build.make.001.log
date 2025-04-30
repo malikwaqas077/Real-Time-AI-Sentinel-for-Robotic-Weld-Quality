@@ -1,0 +1,11 @@
+[ 15%] Built target gtest
+[ 15%] Built target _rosauth_generate_messages_check_deps_Authentication
+[ 23%] Built target rosauth_generate_messages_cpp
+[ 38%] Built target rosauth_generate_messages_lisp
+[ 53%] Built target rosauth_generate_messages_eus
+[ 61%] Built target rosauth_generate_messages_py
+[ 69%] Built target rosauth_generate_messages_nodejs
+[ 69%] Built target rosauth_gencpp
+[ 69%] Built target rosauth_generate_messages
+[ 84%] Built target ros_mac_authentication
+[100%] Built target ros_mac_authentication_test

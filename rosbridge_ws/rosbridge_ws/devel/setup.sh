@@ -1,0 +1,1 @@
+/home/waqas/rosbridge_ws/devel/.private/catkin_tools_prebuild/setup.sh

@@ -1,0 +1,1 @@
+/home/waqas/rosbridge_ws/devel/.private/rosapi/lib/python3/dist-packages/rosapi/srv/_GetParamNames.py

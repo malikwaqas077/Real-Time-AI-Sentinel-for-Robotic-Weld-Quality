@@ -1,0 +1,11 @@
+Symlinking /home/waqas/rosbridge_ws/devel/share/rosbridge_server/cmake/rosbridge_serverConfig.cmake
+Symlinking /home/waqas/rosbridge_ws/devel/share/rosbridge_server/cmake/rosbridge_serverConfig-version.cmake
+Symlinking /home/waqas/rosbridge_ws/devel/lib/rosbridge_server/rosbridge_websocket.py
+Symlinking /home/waqas/rosbridge_ws/devel/lib/rosbridge_server/rosbridge_tcp.py
+Symlinking /home/waqas/rosbridge_ws/devel/lib/rosbridge_server/cmake.lock
+Symlinking /home/waqas/rosbridge_ws/devel/lib/rosbridge_server/rosbridge_udp
+Symlinking /home/waqas/rosbridge_ws/devel/lib/rosbridge_server/rosbridge_udp.py
+Symlinking /home/waqas/rosbridge_ws/devel/lib/rosbridge_server/rosbridge_websocket
+Symlinking /home/waqas/rosbridge_ws/devel/lib/rosbridge_server/rosbridge_tcp
+Symlinking /home/waqas/rosbridge_ws/devel/lib/python3/dist-packages/rosbridge_server/__init__.py
+Symlinking /home/waqas/rosbridge_ws/devel/lib/pkgconfig/rosbridge_server.pc

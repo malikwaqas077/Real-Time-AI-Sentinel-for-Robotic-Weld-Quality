@@ -1,0 +1,8 @@
+setup.py
+src/rosbridge_server/__init__.py
+src/rosbridge_server/autobahn_websocket.py
+src/rosbridge_server/client_mananger.py
+src/rosbridge_server/tcp_handler.py
+src/rosbridge_server/udp_handler.py
+src/rosbridge_server/util.py
+src/rosbridge_server/websocket_handler.py

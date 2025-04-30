@@ -1,0 +1,2 @@
+rosauth:rosbridge_suite/rosapi:rosbridge_suite/rosbridge_library:rosbridge_suite/rosbridge_msgs:rosbridge_suite/rosbridge_server:rosbridge_suite/rosbridge_suite
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/waqas/rosbridge_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/waqas/rosbridge_ws/install_isolated

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/waqas/rosbridge_ws/devel_isolated/rosbridge_msgs/setup.sh

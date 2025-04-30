@@ -1,0 +1,1 @@
+/home/waqas/rosbridge_ws/devel/.private/rosapi/share/gennodejs/ros/rosapi/srv/NodeDetails.js
